@@ -1,4 +1,4 @@
-cd cd import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from '@reduxjs/toolkit';
 const topicsSlice = createSlice({
     name: 'topics',
     initialState: { topics: {
